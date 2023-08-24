@@ -1,0 +1,58 @@
+/*
+ * Remove espaços pré-definidos de todos os elementos.
+ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Definindo a estrtura: posicionamento, corde fundo e tamanho da cada área.
+ */
+header,
+footer {
+    text-align: center;
+    width: 100%
+}
+
+main {
+    background-color: burlywood;
+    float: left;
+    width: 70%
+}
+
+aside {
+    background-color: salmon;
+    float: right;
+    width: 30%
+}
+
+footer {
+    bottom: 0;
+    position: fixed
+}
+
+/*
+ * Configuração da galeria de livros com estrutura FLEXBOX. 
+ */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* 
+ * Configurando a exibição de cada livro.
+ */
+.book {
+    height: 240px;
+    text-align: center;
+    width: 130px;
+}
+
+/*
+ * A foto de capa do livro não deve ser exibida com altura maior que 150px.
+ */
+.book img {
+    max-height: 150px;
+}
