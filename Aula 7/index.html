@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee landing</title>
+    <style>
+        body {
+            background-image: url("coffee.jpg");
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: cover;
+
+        }
+
+        main {
+            font-family: Verdana;
+            width: 30%;
+            float: right;
+            margin: 5%;
+        }
+
+        h1 { font-size: 32px; }
+        h2 { font-size: 12px; }
+        p  { font-size: 12px; }
+        label { font-size: 10px; }
+        input, select button, textarea {
+            margin-top: 1px;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        
+        
+        }
+        input[type='checkbox'] {width: 10px; float: left;}
+        button { 
+            cursor: pointer;
+            color: rgb(97, 60, 24);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Coffe landind</h1>
+        <h2>Lorem ipsum dolor sit amet.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis sem mauris, at gravida velit cursus vel.
+            Pellentesque at molestie tellus. Pellentesque blandit eget eros in facilisis.</p>
+        <p> Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus egestas
+            quam sem, nec tempor augue placerat eget.</p>
+        <form name="coffe-order">
+            <label form="qtd">Qual é teu nome?</label>
+            <input type="text" placeholder="Teu nome" name="name">
+
+            <label form="qtd">Qual o tipo de café</label>
+            <select name="coffe-type">
+                <option>:: Selecione o tipo de café ::</option>
+                <option>Passado</option>
+                <option>Capuccino</option>
+                <option>Café com leite</option>
+            </select>
+            <label form="qtd">Quantas xícaras?</label>
+            <input type="number" name="qtd" min="1" value="1" id="qtd">
+
+            <textarea placeholder="Observações?"></textarea>
+            
+            <input type="checkbox"><label> Quer açúcar?</label>
+
+            <button>Confirmar o pedido</button>
+        </form>
+    </main>
+</body>
+
+</html>
