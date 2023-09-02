@@ -1,0 +1,29 @@
+table {
+
+    border-style: hidden;
+
+}
+
+thead {
+
+    background-color: rgb(99, 160, 213);
+
+}
+
+tbody {
+
+    background-color: rgb(185, 188, 191);
+
+}
+
+td {
+
+    padding: 5px;
+
+}
+
+.meçi, .haalandinho {
+
+    background-color: rgb(147, 154, 161);
+
+}

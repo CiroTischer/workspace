@@ -1,0 +1,50 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    transition: all linear;
+
+}
+
+body {
+
+    background-color: rgb(44, 47, 50);
+
+}
+
+header { 
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(16, 93, 193);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+
+}
+
+.galeria {
+
+    margin: 10px 50px;
+    
+}
+
+.galeria img {
+
+    width: 300px;
+    height: 200px;
+    margin: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px black;
+
+}
+
+a :hover {
+
+    transform: scale(1.05);
+    transition: .3s;
+
+}
+

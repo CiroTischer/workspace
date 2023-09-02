@@ -1,0 +1,33 @@
+.LayoutFlexbox {
+
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.um {
+
+    background-color: blue;
+    padding: 10px;
+    flex: 50%;
+
+}
+
+.dois {
+
+    background-color: red;
+    padding: 10px;
+    flex: 50%;
+
+}
+
+.três {
+
+    background-color: green;
+    padding: 10px;
+    flex: 50%;
+
+}

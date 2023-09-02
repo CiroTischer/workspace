@@ -1,0 +1,35 @@
+form{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width:25%;
+    gap:1em;
+    padding: 15px;
+    background-color: rgb(8, 116, 232);
+    margin:5%;
+    height:50vh;
+    border-radius:15px;
+    align-items: center;
+    
+}
+
+input{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: rgb(200, 200, 200);
+    outline: none;
+}
+
+input:hover{
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+h2 {
+
+    color: white;
+
+}

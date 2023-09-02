@@ -1,0 +1,17 @@
+button {
+
+    width:80px;
+    padding: 10px;
+    border-radius:100%;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+button:hover{
+
+    transition: .3s;
+    background-color: red;
+
+}
