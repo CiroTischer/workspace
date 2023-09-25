@@ -1,0 +1,21 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p {
+
+    text-align: justify;
+    width: 25%;
+
+}
